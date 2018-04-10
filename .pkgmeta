@@ -2,6 +2,3 @@ package-as: VitaPlanner
 
 move-folders:
     VitaPlanner/Modules/Leader: VitaPlanner_Leader
-
-optional-dependencies:
-    - Ace3
