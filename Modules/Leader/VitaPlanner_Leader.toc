@@ -1,0 +1,40 @@
+## Interface: 70300
+## Name: Vita Planner - Leader
+## Title: Vita Planner - Leader
+## Notes: Manage your raid with this group organiser and planner. This is the Leader portion of the addon. Is not required for non-leaders.
+## Author: Azulor-US:Caelestrasz
+## Version: 4.0.0
+## DefaultState: Disabled
+## SavedVariables: VitaPL_DB
+## RequiredDeps: VitaPlanner
+## OptionalDeps: Ace3
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+#@end-no-lib-strip@
+
+libs\LibDataBroker-1.1.lua
+
+#@no-lib-strip@
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceDB-3.0\AceDB-3.0.xml
+libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\AceConsole-3.0\AceConsole-3.0.xml
+libs\AceHook-3.0\AceHook-3.0.xml
+libs\AceLocale-3.0\AceLocale-3.0.xml
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\AceConfig-3.0\AceConfig-3.0.xml
+
+libs\LibKeyBound-1.0\lib.xml
+libs\LibActionButton-1.0\LibActionButton-1.0.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+libs\LibWindow-1.1\LibWindow-1.1.lua
+libs\LibDualSpec-1.0\LibDualSpec-1.0.lua
+#@end-no-lib-strip@
+
+## Core ##
+VitaPlanner_Leader.lua
+VitaPlanner_Leader_UI.lua
+

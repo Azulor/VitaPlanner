@@ -1,0 +1,25 @@
+## Interface: 50400
+## Title: Lib: LibStub
+## Notes: Universal Library Stub
+## Credits: Kaelten, Cladhaire, ckknight, Mikk, Ammo, Nevcairiel
+## X-Website: http://www.wowace.com/addons/libstub/
+## X-Category: Library
+## X-License: Public Domain
+## X-Curse-Packaged-Version: r102
+## X-Curse-Project-Name: LibStub
+## X-Curse-Project-ID: libstub
+## X-Curse-Repository-ID: wow/libstub/mainline
+## X-Curse-Packaged-Version: r22
+## X-Curse-Project-Name: Vita Planner
+## X-Curse-Project-ID: vita-planner
+## X-Curse-Repository-ID: wow/vita-planner/mainline
+## X-Curse-Packaged-Version: Beta-0.9.2
+## X-Curse-Project-Name: Vita Planner
+## X-Curse-Project-ID: vita-planner
+## X-Curse-Repository-ID: wow/vita-planner/mainline
+## X-Curse-Packaged-Version: v3.0.0
+## X-Curse-Project-Name: Vita Planner
+## X-Curse-Project-ID: vita-planner
+## X-Curse-Repository-ID: wow/vita-planner/mainline
+
+LibStub.lua

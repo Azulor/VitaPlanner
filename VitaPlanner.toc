@@ -1,0 +1,41 @@
+## Interface: 70300
+## Name: Vita Planner
+## Title: Vita Planner
+## Notes: Manage your raid with this group organiser and planner
+## Author: Azulor-US:Caelestrasz
+## Version: 4.0.0
+## DefaultState: Enabled
+## SavedVariables: VitaP_DB
+## OptionalDeps: Ace3
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+#@end-no-lib-strip@
+
+libs\LibDataBroker-1.1.lua
+
+#@no-lib-strip@
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceDB-3.0\AceDB-3.0.xml
+libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\AceConsole-3.0\AceConsole-3.0.xml
+libs\AceHook-3.0\AceHook-3.0.xml
+libs\AceLocale-3.0\AceLocale-3.0.xml
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\AceConfig-3.0\AceConfig-3.0.xml
+
+libs\LibKeyBound-1.0\lib.xml
+libs\LibActionButton-1.0\LibActionButton-1.0.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+libs\LibWindow-1.1\LibWindow-1.1.lua
+libs\LibDualSpec-1.0\LibDualSpec-1.0.lua
+#@end-no-lib-strip@
+
+## Core ##
+VitaPlanner.lua
+VitaPlanner_UI.lua
